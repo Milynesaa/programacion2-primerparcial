@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_usuarios"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Usuarios" />
+
+    <item
+        android:id="@+id/navigation_cursos"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Cursos" />
+
+    <item
+        android:id="@+id/navigation_inscripciones"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Inscripciones" />
+
+    <item
+        android:id="@+id/navigation_modulos"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Módulos" />
+
+    <item
+        android:id="@+id/navigation_calificaciones"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Calificaciones" />
+
+</menu>

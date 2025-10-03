@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_usuarios">
+
+    <fragment
+        android:id="@+id/navigation_usuarios"
+        android:name="com.CursosOnline.learnhub.ui.fragments.UsuariosFragment"
+        android:label="Usuarios"
+        tools:layout="@layout/fragment_usuarios" />
+
+    <fragment
+        android:id="@+id/navigation_cursos"
+        android:name="com.CursosOnline.learnhub.ui.fragments.CursoFragment"
+        android:label="Cursos"
+        tools:layout="@layout/fragment_cursos" />
+
+    <fragment
+        android:id="@+id/navigation_inscripciones"
+        android:name="com.CursosOnline.learnhub.ui.fragments.InscripcionesFragment"
+        android:label="Inscripciones"
+        tools:layout="@layout/fragment_inscripciones" />
+
+    <fragment
+        android:id="@+id/navigation_modulos"
+        android:name="com.CursosOnline.learnhub.ui.fragments.ModuloFragment"
+        android:label="Módulos"
+        tools:layout="@layout/fragment_modulos" />
+
+    <fragment
+        android:id="@+id/navigation_calificaciones"
+        android:name="com.CursosOnline.learnhub.ui.fragments.CalificacionFragment"
+        android:label="Calificaciones"
+        tools:layout="@layout/fragment_calificaciones" />
+
+</navigation>
